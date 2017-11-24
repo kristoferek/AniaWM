@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setEqualHeigh(sectionH3);
   setEqualHeigh(sectionBox);
 
-  $('#navbar a').each(function () {
+  $('.navbar a').each(function () {
     console.log(this);
     smoothScroll(this);
   });
