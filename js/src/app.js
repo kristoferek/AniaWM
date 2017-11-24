@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   };
 
-  var sectionH3 = $('#uslugi section h3')
-  var sectionBox = $('#uslugi section')
+  var sectionH3 = $('#uslugi section h3');
+  var sectionBox = $('#uslugi section');
 
   scrollBackground();
   setEqualHeigh(sectionH3);
   setEqualHeigh(sectionBox);
 
-  $('#navbar a').each(function () {
+  $('#navbar li a').each(function () {
     console.log(this);
     smoothScroll(this);
   });
