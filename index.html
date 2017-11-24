@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/src/style.css">
     <title>Anna Matusiak-Wekiera Kancelaria Radcy Prawnego</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
     <div class="container">
       <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -30,13 +30,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbar">
+            <a class="navbar-brand" href="#home" ><img src="./images/home.png"  height="20px"> </a>
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Kancelaria<span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="#kancelaria">Kancelaria<span class="sr-only">(current)</span></a></li>
               <li><a href="#uslugi">Usługi</a></li>
               <li><a href="#szkolenia">Szkolenia</a></li>
               <li><a href="#o-mnie">O mnie</a></li>
@@ -100,11 +100,11 @@
                 <header>
                   <h2>Usługi</h2>
                 </header>
-                <section class="col-xs-12 col-sm-6 col-md-4">
+                <section class="col-xs-12 col-sm-6">
                   <header>
-                    OCHRONA DANYCH OSOBOWYCH
+                    <h3>Ochrona danych osobowych</h3>
                   </header>
-                  <ul>
+                  <ul class="list-unstyled">
                     <li>Audyty prawne</li>
                     <li>Polityka Bezpieczeństwa i IZSI</li>
                     <li>Powierzenie przetwarzania, zgody, regulaminy</li>
@@ -112,52 +112,50 @@
                     <li>Wykonywanie funkcji ABI</li>
                   </ul>
                 </section>
-                <section class="col-xs-12 col-sm-6 col-md-4">
+                <section class="col-xs-12 col-sm-6">
                   <header>
-                    OCHRONA DANYCH OSOBOWYCH
+                    <h3>Prawo pracy</h3>
                   </header>
-                  <ul>
-                    <li>Audyty prawne</li>
-                    <li>Polityka Bezpieczeństwa i IZSI</li>
-                    <li>Powierzenie przetwarzania, zgody, regulaminy</li>
-                    <li>Postępowania przed GIODO</li>
-                    <li>Wykonywanie funkcji ABI</li>
+                  <ul class="list-unstyled">
+                    <li>Spory pracownicze</li>
+                    <li>Nawiązywanie stosunku pracy oraz restrukturyzacje</li>
+                    <li>Regulaminy, układy zbiorowe, porozumienia</li>
+                    <li>Rady pracowników, związki zawodowe</li>
+                    <li>Elastyczne formy zatrudnienia</li>
                   </ul>
                 </section>
-                <section class="col-xs-12 col-sm-6 col-md-4">
+                <section class="col-xs-12 col-sm-6">
                   <header>
-                    OCHRONA DANYCH OSOBOWYCH
+                    <h3>Prowo umów</h3>
                   </header>
-                  <ul>
-                    <li>Audyty prawne</li>
-                    <li>Polityka Bezpieczeństwa i IZSI</li>
-                    <li>Powierzenie przetwarzania, zgody, regulaminy</li>
-                    <li>Postępowania przed GIODO</li>
-                    <li>Wykonywanie funkcji ABI</li>
+                  <ul class="list-unstyled">
+                    <li>Umowy w obrocie krajowym i zagranicznym</li>
+                    <li>Umowy w działalności handlowej</li>
+                    <li>Umowy w działaności marketinngowej</li>
+                    <li>Umowy outsourcingu</li>
+                    <li>Umowy dla kadry menadżerskiej</li>
                   </ul>
                 </section>
-                <section class="col-xs-12 col-sm-6 col-md-4">
+                <section class="col-xs-12 col-sm-6">
                   <header>
-                    OCHRONA DANYCH OSOBOWYCH
+                    <h3>Prawo internetu</h3>
                   </header>
-                  <ul>
-                    <li>Audyty prawne</li>
-                    <li>Polityka Bezpieczeństwa i IZSI</li>
-                    <li>Powierzenie przetwarzania, zgody, regulaminy</li>
-                    <li>Postępowania przed GIODO</li>
-                    <li>Wykonywanie funkcji ABI</li>
+                  <ul class="list-unstyled">
+                    <li>Handel elektroniczny</li>
+                    <li>Konkursy i loterie</li>
+                    <li>Regulaminy, umowy, klauzle</li>
+                    <li>Ochrona praw autorskich i tajemnicy handlowej</li>
                   </ul>
                 </section>
-                <section class="col-xs-12 col-sm-6 col-md-4">
+                <section class="col-xs-12 col-sm-6">
                   <header>
-                    OCHRONA DANYCH OSOBOWYCH
+                    <h3>Prawo spółek</h3>
                   </header>
-                  <ul>
-                    <li>Audyty prawne</li>
-                    <li>Polityka Bezpieczeństwa i IZSI</li>
-                    <li>Powierzenie przetwarzania, zgody, regulaminy</li>
-                    <li>Postępowania przed GIODO</li>
-                    <li>Wykonywanie funkcji ABI</li>
+                  <ul class="list-unstyled">
+                    <li>Zakładanie spółek, postępowanie rejestracyjne</li>
+                    <li>Obsługa organów spółek</li>
+                    <li>Uchwały, statuty, umowy</li>
+                    <li>Dane osobowe w grupach kapitałowych</li>
                   </ul>
                 </section>
               </div>
@@ -196,18 +194,20 @@
                 <header>
                   <h2>Kontakt</h2>
                 </header>
-                <div class="email">
-                  anna.matusiak-wekiera@oirpwarszawa.pl
+                <div class="mail">
+                  <img src="./images/mail.png" alt="">
+                  <a href="mailto:anna.matusiak-wekiera@oirpwarszawa.pl">anna.matusiak-wekiera@oirpwarszawa.pl</a>
                 </div>
                 <div class="phone">
+                  <img src="./images/phone.png" alt="">
                   +48 669 600 025
                 </div>
               </div>
             </section>
 
             <footer class="row">
-              <p class=" col-xs-12 col-sm-6 copyright">&copy Wszelkie prawa zastrzeżone - Anna Matusiak-Wekiera</p>
-              <p class="col-xs-12 col-sm-6 copyright text-right">Projekt - <a href="http://github.com/kristoferek">Krzysztof Michał Nowak</a></p>
+              <p class=" col-xs-12 col-sm-6 copyright">&copy; Wszelkie prawa zastrzeżone: Anna Matusiak-Wekiera</p>
+              <p class="col-xs-12 col-sm-6 copyright text-right">Projekt: <a href="http://github.com/kristoferek">Krzysztof Michał Nowak</a></p>
             </footer>
 
           </div>
@@ -219,5 +219,6 @@
     </div>
     <script src="./js/lib/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./js/lib/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/src/app.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
